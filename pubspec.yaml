@@ -1,0 +1,52 @@
+name: passiton
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core + authentication + Firestore
+  firebase_core: ^4.1.1
+  firebase_auth: ^6.1.0
+  cloud_firestore: ^6.0.2
+  firebase_database: ^12.0.2
+  http: ^1.2.0
+  image_picker: ^1.2.0
+  # Geolocation
+  geolocator: ^14.0.2
+
+  # UI Swiper
+  card_swiper: ^3.0.1
+
+  # State management and routing
+  get: ^4.6.6
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+ 
+  
+  firebase_messaging: ^16.0.4
+
+  flutter_local_notifications: ^19.5.0
+
+  app_settings: ^6.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/models/
